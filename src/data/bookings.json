@@ -1,0 +1,15 @@
+{
+  "bookings": [
+    {
+      "id": "booking1",
+      "listingId": "1",
+      "userId": "user1",
+      "checkInDate": "2024-05-15",
+      "checkOutDate": "2024-05-20",
+      "guests": 2,
+      "totalPrice": 12500,
+      "status": "confirmed",
+      "createdAt": "2024-05-01"
+    }
+  ]
+}

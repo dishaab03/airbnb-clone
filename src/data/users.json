@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "avatar": "https://i.pravatar.cc/150?u=user1",
+      "wishlist": ["1", "5", "8"],
+      "bookings": ["booking1"],
+      "reviews": []
+    }
+  ]
+}
