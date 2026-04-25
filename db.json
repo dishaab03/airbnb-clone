@@ -208,9 +208,9 @@
         "lat": 12.9716,
         "lng": 77.5946
       },
-      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000",
+      "image": "/images/listings/manali.png",
       "images": [
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000"
+        "/images/listings/manali.png"
       ],
       "price": 2200,
       "pricePerNight": 2200,
@@ -286,9 +286,9 @@
         "lat": 32.2432,
         "lng": 77.1892
       },
-      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1000",
+      "image": "/images/listings/manali.png",
       "images": [
-        "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&q=80&w=1000"
+        "/images/listings/manali.png"
       ],
       "price": 12000,
       "pricePerNight": 12000,
@@ -519,9 +519,9 @@
         "lat": 26.9157,
         "lng": 70.916
       },
-      "image": "https://images.unsplash.com/photo-1533619239233-6280475a634a?auto=format&fit=crop&q=80&w=1000",
+      "image": "/images/listings/jaisalmer.png",
       "images": [
-        "https://images.unsplash.com/photo-1533619239233-6280475a634a?auto=format&fit=crop&q=80&w=1000"
+        "/images/listings/jaisalmer.png"
       ],
       "price": 6000,
       "pricePerNight": 6000,

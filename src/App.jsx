@@ -2,16 +2,20 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import HomePage from './components/Home/HomePage';
-// Other imports will be added by Person 1 and 3
+import SearchPage from './pages/SearchPage';
+import ListingPage from './pages/ListingPage';
+import WishlistPage from './pages/WishlistPage';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
-          {/* Person 3 will add listing detail routes here */}
-        </Route>
+        <Route path="/" element={<Layout><HomePage /></Layout>} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/listing/:id" element={<ListingPage />} />
+        <Route path="/wishlist" element={<WishlistPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
       </Routes>
     </div>
   );
