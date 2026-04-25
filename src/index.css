@@ -1,0 +1,32 @@
+:root {
+  --dark-green: #1B4332;
+  --ivory: #FFFBF0;
+  --yellow: #FFD60A;
+  --white: #ffffff;
+  --gray: #717171;
+  --light-gray: #dddddd;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ivory);
+  color: var(--dark-green);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,21 @@
+{
+  "listings": [
+    {
+      "id": "1",
+      "title": "Mountain Cabin",
+      "description": "A cozy cabin in the mountains.",
+      "pricePerNight": 150,
+      "location": "Shimla",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1,
+      "rating": 4.8,
+      "reviews": [],
+      "images": ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"],
+      "availability": []
+    }
+  ],
+  "bookings": [],
+  "users": []
+}
