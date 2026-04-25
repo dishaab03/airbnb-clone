@@ -1,0 +1,530 @@
+{
+  "listings": [
+    {
+      "id": "1",
+      "title": "Cozy Forest Cabin",
+      "location": "Shimla, Himachal Pradesh",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1449156001437-3a1661dcda2e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 4500,
+      "rating": 4.8,
+      "reviewCount": 124,
+      "type": "cabin",
+      "description": "Escape to this beautiful wooden cabin nestled deep in the Shimla forest. Perfect for nature lovers looking for peace and tranquility.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Heating",
+        "Garden",
+        "Parking"
+      ],
+      "host": {
+        "name": "Rajesh Kumar",
+        "avatar": "https://i.pravatar.cc/150?u=host1"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Beachfront Luxury Villa",
+      "location": "Anjuna, Goa",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "price": 12500,
+      "rating": 4.9,
+      "reviewCount": 89,
+      "type": "villa",
+      "description": "Stunning beachfront villa with private pool and direct access to the sea. Experience luxury at its best.",
+      "guests": 8,
+      "bedrooms": 4,
+      "beds": 4,
+      "bathrooms": 4,
+      "amenities": [
+        "Pool",
+        "AC",
+        "WiFi",
+        "Kitchen",
+        "Beach access"
+      ],
+      "host": {
+        "name": "Anita Desai",
+        "avatar": "https://i.pravatar.cc/150?u=host2"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Modern Skyline Apartment",
+      "location": "Bandra, Mumbai",
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
+      "price": 3200,
+      "rating": 4.5,
+      "reviewCount": 210,
+      "type": "apartment",
+      "description": "Sleek and modern apartment in the heart of Bandra with amazing city views.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "AC",
+        "Gym",
+        "Elevator"
+      ],
+      "host": {
+        "name": "Vikram Singh",
+        "avatar": "https://i.pravatar.cc/150?u=host3"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Misty Mountains Treehouse",
+      "location": "Munnar, Kerala",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+      "price": 6000,
+      "rating": 4.7,
+      "reviewCount": 56,
+      "type": "treehouse",
+      "description": "Live among the trees in this unique eco-friendly treehouse with views of tea plantations.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Breakfast",
+        "Nature trails",
+        "View"
+      ],
+      "host": {
+        "name": "Meera Nair",
+        "avatar": "https://i.pravatar.cc/150?u=host4"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Heritage Lakefront Haveli",
+      "location": "Udaipur, Rajasthan",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "price": 9500,
+      "rating": 4.9,
+      "reviewCount": 42,
+      "type": "lakefront",
+      "description": "Experience royal living in this restored heritage haveli overlooking Lake Pichola.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "Breakfast",
+        "Lake view",
+        "AC",
+        "WiFi"
+      ],
+      "host": {
+        "name": "Karan Singh",
+        "avatar": "https://i.pravatar.cc/150?u=host5"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Sunset Beach Shack",
+      "location": "Varkala, Kerala",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80",
+      "price": 1800,
+      "rating": 4.4,
+      "reviewCount": 115,
+      "type": "beachfront",
+      "description": "Simple and cozy shack right on the cliff edge with stunning sunset views.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Balcony"
+      ],
+      "host": {
+        "name": "Siddharth",
+        "avatar": "https://i.pravatar.cc/150?u=host6"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Riverside Bamboo Hut",
+      "location": "Rishikesh, Uttarakhand",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80",
+      "price": 2200,
+      "rating": 4.6,
+      "reviewCount": 78,
+      "type": "camping",
+      "description": "Connect with nature in this bamboo hut situated on the banks of the Ganges.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Ganges view",
+        "Yoga deck"
+      ],
+      "host": {
+        "name": "Aarti",
+        "avatar": "https://i.pravatar.cc/150?u=host7"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Tea Plantation Bungalow",
+      "location": "Darjeeling, West Bengal",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+      "price": 5500,
+      "rating": 4.8,
+      "reviewCount": 63,
+      "type": "cabin",
+      "description": "Charming colonial-style bungalow surrounded by lush tea gardens.",
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 2,
+      "amenities": [
+        "Fireplace",
+        "Kitchen",
+        "Garden"
+      ],
+      "host": {
+        "name": "Priyanka",
+        "avatar": "https://i.pravatar.cc/150?u=host8"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Desert Glamping Tent",
+      "location": "Jaisalmer, Rajasthan",
+      "image": "/images/listings/jaisalmer.png",
+      "price": 4000,
+      "rating": 4.7,
+      "reviewCount": 94,
+      "type": "camping",
+      "description": "Luxury tents in the Thar Desert with camel safari and cultural folk music.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Safari",
+        "Dinner included",
+        "AC"
+      ],
+      "host": {
+        "name": "Abhishek",
+        "avatar": "https://i.pravatar.cc/150?u=host9"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Ocean View Penthouse",
+      "location": "Vizag, Andhra Pradesh",
+      "image": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80",
+      "price": 7500,
+      "rating": 4.8,
+      "reviewCount": 35,
+      "type": "apartment",
+      "description": "Luxurious penthouse with panoramic ocean views and a large private terrace.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "Pool",
+        "AC",
+        "WiFi",
+        "Gym"
+      ],
+      "host": {
+        "name": "Rohan",
+        "avatar": "https://i.pravatar.cc/150?u=host10"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Snowy Peak Lodge",
+      "location": "Manali, Himachal Pradesh",
+      "image": "/images/listings/manali.png",
+      "price": 5000,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "type": "cabin",
+      "description": "A warm and inviting lodge with views of the snow-capped Himalayan peaks.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "Fireplace",
+        "WiFi",
+        "Parking"
+      ],
+      "host": {
+        "name": "Deepak",
+        "avatar": "https://i.pravatar.cc/150?u=host11"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Zen Garden Villa",
+      "location": "Pondicherry",
+      "image": "https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=800&q=80",
+      "price": 8800,
+      "rating": 4.7,
+      "reviewCount": 28,
+      "type": "villa",
+      "description": "Tranquil villa with a private Zen garden and minimalist French-inspired interiors.",
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 2,
+      "amenities": [
+        "Garden",
+        "AC",
+        "WiFi"
+      ],
+      "host": {
+        "name": "Claire",
+        "avatar": "https://i.pravatar.cc/150?u=host12"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Backwater Houseboat",
+      "location": "Alleppey, Kerala",
+      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80",
+      "price": 11000,
+      "rating": 4.9,
+      "reviewCount": 175,
+      "type": "lakefront",
+      "description": "Floating luxury on the peaceful backwaters of Kerala. All meals included.",
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 3,
+      "amenities": [
+        "Chef",
+        "View",
+        "AC"
+      ],
+      "host": {
+        "name": "Vinu",
+        "avatar": "https://i.pravatar.cc/150?u=host13"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Vintage Art Studio",
+      "location": "Kolkata, West Bengal",
+      "image": "https://images.unsplash.com/photo-1558431382-27e39cbef4bc?q=80&w=1000&auto=format&fit=crop",
+      "price": 2500,
+      "rating": 4.6,
+      "reviewCount": 54,
+      "type": "apartment",
+      "description": "Cozy studio filled with local art in a historic North Kolkata building.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Art"
+      ],
+      "host": {
+        "name": "Tapan",
+        "avatar": "https://i.pravatar.cc/150?u=host14"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Starlit Dome Stay",
+      "location": "Leh, Ladakh",
+      "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=80",
+      "price": 6500,
+      "rating": 5,
+      "reviewCount": 19,
+      "type": "camping",
+      "description": "Sleep under the stars in this transparent dome tent with heated floors.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Heating",
+        "Stargazing",
+        "Breakfast"
+      ],
+      "host": {
+        "name": "Tashi",
+        "avatar": "https://i.pravatar.cc/150?u=host15"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Tropical Bamboo Villa",
+      "location": "Coorg, Karnataka",
+      "image": "https://images.unsplash.com/photo-1581452273522-348986847c2d?q=80&w=1000&auto=format&fit=crop",
+      "price": 4200,
+      "rating": 4.7,
+      "reviewCount": 47,
+      "type": "treehouse",
+      "description": "Unique bamboo architecture set in a lush coffee estate.",
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1,
+      "amenities": [
+        "Coffee tour",
+        "Pool",
+        "WiFi"
+      ],
+      "host": {
+        "name": "Divya",
+        "avatar": "https://i.pravatar.cc/150?u=host16"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Blue City Boutique Home",
+      "location": "Jodhpur, Rajasthan",
+      "image": "https://images.unsplash.com/photo-1590050752117-23a9d7fc201c?q=80&w=1000&auto=format&fit=crop",
+      "price": 3800,
+      "rating": 4.8,
+      "reviewCount": 61,
+      "type": "apartment",
+      "description": "Stay in a traditional blue-painted home with a rooftop view of Mehrangarh Fort.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "Rooftop",
+        "WiFi",
+        "AC"
+      ],
+      "host": {
+        "name": "Sunil",
+        "avatar": "https://i.pravatar.cc/150?u=host17"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Coffee Estate Cottage",
+      "location": "Chikmagalur, Karnataka",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+      "price": 3500,
+      "rating": 4.5,
+      "reviewCount": 82,
+      "type": "cabin",
+      "description": "A secluded cottage perfect for birdwatching and enjoying fresh coffee.",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1,
+      "amenities": [
+        "Nature walks",
+        "Kitchen",
+        "Fireplace"
+      ],
+      "host": {
+        "name": "Manju",
+        "avatar": "https://i.pravatar.cc/150?u=host18"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Lakeside Glamping",
+      "location": "Pawna Lake, Maharashtra",
+      "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=800&q=80",
+      "price": 2800,
+      "rating": 4.3,
+      "reviewCount": 156,
+      "type": "camping",
+      "description": "Camp by the beautiful Pawna Lake with bonfire and BBQ.",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Bonfire",
+        "Lake access",
+        "Music"
+      ],
+      "host": {
+        "name": "Rahul",
+        "avatar": "https://i.pravatar.cc/150?u=host19"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Private Island Retreat",
+      "location": "Lakshadweep",
+      "image": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=800&q=80",
+      "price": 25000,
+      "rating": 5,
+      "reviewCount": 12,
+      "type": "villa",
+      "description": "Your own private paradise with crystal clear waters and white sandy beaches.",
+      "guests": 10,
+      "bedrooms": 5,
+      "beds": 6,
+      "bathrooms": 5,
+      "amenities": [
+        "Private beach",
+        "Snorkeling",
+        "Chef",
+        "AC"
+      ],
+      "host": {
+        "name": "Island Admin",
+        "avatar": "https://i.pravatar.cc/150?u=host20"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "2",
+      "checkIn": "2026-04-22",
+      "checkOut": "2026-04-26",
+      "guests": 1,
+      "totalPrice": 57000,
+      "id": "OCfqMK1fwfs",
+      "status": "confirmed",
+      "createdAt": "2026-04-25T05:48:31.296Z"
+    },
+    {
+      "listingId": "2",
+      "checkIn": "2026-04-19",
+      "checkOut": "2026-04-25",
+      "guests": 8,
+      "totalPrice": 85500,
+      "id": "7oHOHcd77I8",
+      "status": "confirmed",
+      "createdAt": "2026-04-25T05:49:07.600Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "Dishaa",
+      "email": "dishaa@example.com",
+      "wishlist": []
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

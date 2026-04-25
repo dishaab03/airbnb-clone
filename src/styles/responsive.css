@@ -1,0 +1,48 @@
+/* Breakpoints:
+   Mobile: 320px - 768px
+   Tablet: 768px - 1024px
+   Desktop: 1024px+
+*/
+
+/* Mobile-first approach is already in global.css, but we refine here */
+
+@media (max-width: 768px) {
+  :root {
+    --h1-size: 24px;
+    --h2-size: 20px;
+    --h3-size: 18px;
+  }
+
+  .grid-auto {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 var(--space-3);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-auto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-auto {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Specific component responsiveness will be handled in their respective modules or here if using global classes */
+.hide-mobile {
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.show-mobile {
+  @media (min-width: 769px) {
+    display: none !important;
+  }
+}

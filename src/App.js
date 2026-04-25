@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ListingsProvider } from './context/ListingsContext';
+import { FilterProvider } from './context/FilterContext';
+import { WishlistProvider } from './context/WishlistContext';
+import { BookingProvider } from './context/BookingContext';
+
+import HomePage from './components/Home/HomePage';
+import SearchPage from './pages/SearchPage';
+import ListingPage from './pages/ListingPage';
+import WishlistPage from './pages/WishlistPage';
+import ProfilePage from './pages/ProfilePage';
+import Layout from './components/Layout/Layout';
+
+import './styles/global.css';
+import './styles/responsive.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ListingsProvider>
+      <FilterProvider>
+        <WishlistProvider>
+          <BookingProvider>
+            <Router>
+              <Routes>
+                <Route path="/" element={<Layout><HomePage /></Layout>} />
+                <Route path="/search" element={<SearchPage />} />
+                <Route path="/listing/:id" element={<ListingPage />} />
+                <Route path="/wishlist" element={<WishlistPage />} />
+                <Route path="/profile" element={<ProfilePage />} />
+              </Routes>
+            </Router>
+          </BookingProvider>
+        </WishlistProvider>
+      </FilterProvider>
+    </ListingsProvider>
   );
 }
 
