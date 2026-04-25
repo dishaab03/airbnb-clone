@@ -1,0 +1,55 @@
+:root {
+  /* Airbnb Official Color Palette */
+  --primary-color: #FF385C; /* Airbnb Pink / Raush */
+  --primary-hover: #E31C5F;
+  --text-dark: #222222;
+  --text-medium: #484848;
+  --text-light: #717171;
+  --bg-white: #FFFFFF;
+  --bg-light: #F7F7F7;
+  --border-light: #DDDDDD;
+  --border-medium: #EBEBEB;
+  --star-yellow: #FFB400;
+
+  /* Legacy for compatibility */
+  --primary-dark-green: var(--primary-color);
+  --secondary-green: #008489;
+  --ivory: var(--bg-white);
+  --yellow-accent: var(--primary-color);
+  --yellow-hover: var(--primary-hover);
+
+  /* Typography */
+  --font-main: 'Outfit', 'Inter', sans-serif;
+  --h1-size: 32px;
+  --h2-size: 26px;
+  --h3-size: 22px;
+  --body-size: 16px;
+  --caption-size: 14px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-strong: 0 6px 16px rgba(0, 0, 0, 0.12);
+  --shadow-floating: 0 8px 28px rgba(0, 0, 0, 0.28);
+
+  /* Border Radius */
+  --radius-button: 8px;
+  --radius-card: 12px;
+
+  /* Transitions */
+  --transition-default: all 0.25s cubic-bezier(0.2, 0, 0, 1);
+}

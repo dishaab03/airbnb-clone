@@ -1,0 +1,814 @@
+{
+  "listings": [
+    {
+      "id": "1",
+      "title": "Cozy Cabin in Forest",
+      "description": "Escape to this peaceful mountain retreat nestled among cedar trees. Perfect for couples or small families seeking serenity.",
+      "location": "Shimla, Himachal Pradesh",
+      "coordinates": {
+        "lat": 31.1048,
+        "lng": 77.1734
+      },
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=1000",
+        "https://images.unsplash.com/photo-1548013146-72479768bbaa?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 2500,
+      "pricePerNight": 2500,
+      "type": "cabin",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Heating",
+        "Garden",
+        "Parking"
+      ],
+      "rating": 4.8,
+      "reviews": 156,
+      "host": {
+        "id": "host1",
+        "name": "Rajesh Kumar",
+        "avatar": "https://i.pravatar.cc/150?u=host1",
+        "joinDate": "2020-01-15",
+        "responseRate": 98
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "2",
+      "title": "Modern Beachfront Villa",
+      "description": "Stunning villa right on the sand with private pool and panoramic ocean views.",
+      "location": "Goa, India",
+      "coordinates": {
+        "lat": 15.2993,
+        "lng": 73.7712
+      },
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1000",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 15000,
+      "pricePerNight": 15000,
+      "type": "beachfront",
+      "guests": 8,
+      "bedrooms": 4,
+      "beds": 4,
+      "bathrooms": 4,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Pool",
+        "Beach Access",
+        "AC"
+      ],
+      "rating": 4.95,
+      "reviews": 89,
+      "host": {
+        "id": "host2",
+        "name": "Maria Souza",
+        "avatar": "https://i.pravatar.cc/150?u=host2",
+        "joinDate": "2019-05-20",
+        "responseRate": 100
+      },
+      "availability": [],
+      "cancellationPolicy": "strict"
+    },
+    {
+      "id": "3",
+      "title": "Luxury Penthouse with City View",
+      "description": "High-rise living at its best. Enjoy the skyline from your private balcony.",
+      "location": "Mumbai, Maharashtra",
+      "coordinates": {
+        "lat": 19.076,
+        "lng": 72.8777
+      },
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 8000,
+      "pricePerNight": 8000,
+      "type": "apartment",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Gym",
+        "Elevator",
+        "AC"
+      ],
+      "rating": 4.7,
+      "reviews": 45,
+      "host": {
+        "id": "host3",
+        "name": "Amit Shah",
+        "avatar": "https://i.pravatar.cc/150?u=host3",
+        "joinDate": "2021-08-10",
+        "responseRate": 95
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "4",
+      "title": "Heritage Haveli Experience",
+      "description": "Live like royalty in this restored 18th-century haveli with traditional architecture.",
+      "location": "Jaipur, Rajasthan",
+      "coordinates": {
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "image": "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?auto=format&fit=crop&q=80&w=1000",
+        "https://images.unsplash.com/photo-1590073242685-c458c9906d27?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 5500,
+      "pricePerNight": 5500,
+      "type": "villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Courtyard",
+        "Heating",
+        "Parking"
+      ],
+      "rating": 4.9,
+      "reviews": 210,
+      "host": {
+        "id": "host4",
+        "name": "Vikram Singh",
+        "avatar": "https://i.pravatar.cc/150?u=host4",
+        "joinDate": "2018-11-22",
+        "responseRate": 99
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "5",
+      "title": "Rustic Lakehouse Retreat",
+      "description": "Quiet lakefront property perfect for fishing and nature walks.",
+      "location": "Nainital, Uttarakhand",
+      "coordinates": {
+        "lat": 29.3919,
+        "lng": 79.4545
+      },
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 3200,
+      "pricePerNight": 3200,
+      "type": "lakefront",
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 2,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Fireplace",
+        "Garden",
+        "Lake View"
+      ],
+      "rating": 4.6,
+      "reviews": 78,
+      "host": {
+        "id": "host5",
+        "name": "Sita Devi",
+        "avatar": "https://i.pravatar.cc/150?u=host5",
+        "joinDate": "2022-02-05",
+        "responseRate": 92
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "6",
+      "title": "Chic Studio in Art District",
+      "description": "Minimalist studio apartment in the heart of the city's cultural hub.",
+      "location": "Bangalore, Karnataka",
+      "coordinates": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 2200,
+      "pricePerNight": 2200,
+      "type": "apartment",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Workspace",
+        "AC",
+        "Gym"
+      ],
+      "rating": 4.85,
+      "reviews": 112,
+      "host": {
+        "id": "host6",
+        "name": "Rahul Rao",
+        "avatar": "https://i.pravatar.cc/150?u=host6",
+        "joinDate": "2020-06-30",
+        "responseRate": 97
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "7",
+      "title": "Private Island Villa",
+      "description": "Ultimate luxury and privacy on a secluded island with dedicated staff.",
+      "location": "Lakshadweep, India",
+      "coordinates": {
+        "lat": 10.5667,
+        "lng": 72.6417
+      },
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 45000,
+      "pricePerNight": 45000,
+      "type": "beachfront",
+      "guests": 10,
+      "bedrooms": 5,
+      "beds": 5,
+      "bathrooms": 6,
+      "amenities": [
+        "WiFi",
+        "Private Chef",
+        "Pool",
+        "Beach Access",
+        "All Inclusive"
+      ],
+      "rating": 5,
+      "reviews": 12,
+      "host": {
+        "id": "host7",
+        "name": "Captain John",
+        "avatar": "https://i.pravatar.cc/150?u=host7",
+        "joinDate": "2017-03-12",
+        "responseRate": 100
+      },
+      "availability": [],
+      "cancellationPolicy": "strict"
+    },
+    {
+      "id": "8",
+      "title": "Glass House in the Clouds",
+      "description": "Floor-to-ceiling glass walls offering breathtaking views of the Himalayas.",
+      "location": "Manali, Himachal Pradesh",
+      "coordinates": {
+        "lat": 32.2432,
+        "lng": 77.1892
+      },
+      "image": "/images/listings/manali.png",
+      "images": [
+        "/images/listings/manali.png"
+      ],
+      "price": 12000,
+      "pricePerNight": 12000,
+      "type": "villa",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Hot Tub",
+        "Fireplace",
+        "Mountain View"
+      ],
+      "rating": 4.92,
+      "reviews": 34,
+      "host": {
+        "id": "host8",
+        "name": "Karan Johar",
+        "avatar": "https://i.pravatar.cc/150?u=host8",
+        "joinDate": "2023-01-01",
+        "responseRate": 90
+      },
+      "availability": [],
+      "cancellationPolicy": "strict"
+    },
+    {
+      "id": "9",
+      "title": "A-Frame Forest Cabin",
+      "description": "Unique architectural gem tucked away in a pine forest. Great for stargazing.",
+      "location": "Kasol, Himachal Pradesh",
+      "coordinates": {
+        "lat": 32.0095,
+        "lng": 77.315
+      },
+      "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 1800,
+      "pricePerNight": 1800,
+      "type": "cabin",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Garden",
+        "Hammock",
+        "Books",
+        "Coffee Maker"
+      ],
+      "rating": 4.75,
+      "reviews": 67,
+      "host": {
+        "id": "host9",
+        "name": "Priya Singh",
+        "avatar": "https://i.pravatar.cc/150?u=host9",
+        "joinDate": "2021-04-14",
+        "responseRate": 96
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "10",
+      "title": "Sustainable Eco-Farm Stay",
+      "description": "Reconnect with nature in this earthen cottage surrounded by organic orchards.",
+      "location": "Coorg, Karnataka",
+      "coordinates": {
+        "lat": 12.3375,
+        "lng": 75.8069
+      },
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 3500,
+      "pricePerNight": 3500,
+      "type": "villa",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 1,
+      "amenities": [
+        "Organic Food",
+        "Garden",
+        "Hiking",
+        "Yoga Mat",
+        "Pets Allowed"
+      ],
+      "rating": 4.68,
+      "reviews": 42,
+      "host": {
+        "id": "host10",
+        "name": "Sunita Hegde",
+        "avatar": "https://i.pravatar.cc/150?u=host10",
+        "joinDate": "2019-10-10",
+        "responseRate": 88
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "11",
+      "title": "Designer Loft in Delhi",
+      "description": "Industrial-style loft with high ceilings and local artwork.",
+      "location": "New Delhi, Delhi",
+      "coordinates": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 4200,
+      "pricePerNight": 4200,
+      "type": "apartment",
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "AC",
+        "Smart TV",
+        "Washer"
+      ],
+      "rating": 4.72,
+      "reviews": 89,
+      "host": {
+        "id": "host11",
+        "name": "Arjun Kapoor",
+        "avatar": "https://i.pravatar.cc/150?u=host11",
+        "joinDate": "2020-12-25",
+        "responseRate": 94
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "12",
+      "title": "Kerala Backwater Houseboat",
+      "description": "Floating luxury. Drift through the serene backwaters of Alleppey.",
+      "location": "Alleppey, Kerala",
+      "coordinates": {
+        "lat": 9.4981,
+        "lng": 76.3388
+      },
+      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 9500,
+      "pricePerNight": 9500,
+      "type": "villa",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "Full Board",
+        "AC",
+        "Deck",
+        "TV",
+        "Fishing Gear"
+      ],
+      "rating": 4.88,
+      "reviews": 143,
+      "host": {
+        "id": "host12",
+        "name": "Joseph Kurian",
+        "avatar": "https://i.pravatar.cc/150?u=host12",
+        "joinDate": "2018-02-14",
+        "responseRate": 100
+      },
+      "availability": [],
+      "cancellationPolicy": "strict"
+    },
+    {
+      "id": "13",
+      "title": "Sun-Kissed Beach Shack",
+      "description": "Simple, clean, and right on the beach. Hear the waves as you sleep.",
+      "location": "Varkala, Kerala",
+      "coordinates": {
+        "lat": 8.7379,
+        "lng": 76.7073
+      },
+      "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 1200,
+      "pricePerNight": 1200,
+      "type": "beachfront",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Beach Access",
+        "Fan"
+      ],
+      "rating": 4.5,
+      "reviews": 56,
+      "host": {
+        "id": "host13",
+        "name": "Anjali Nair",
+        "avatar": "https://i.pravatar.cc/150?u=host13",
+        "joinDate": "2021-11-11",
+        "responseRate": 91
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "14",
+      "title": "Desert Camp Glamping",
+      "description": "Luxury tents in the Thar Desert with camel safaris and folk music.",
+      "location": "Jaisalmer, Rajasthan",
+      "coordinates": {
+        "lat": 26.9157,
+        "lng": 70.916
+      },
+      "image": "/images/listings/jaisalmer.png",
+      "images": [
+        "/images/listings/jaisalmer.png"
+      ],
+      "price": 6000,
+      "pricePerNight": 6000,
+      "type": "camping",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "Dinner",
+        "Safari",
+        "Heating",
+        "Parking"
+      ],
+      "rating": 4.78,
+      "reviews": 88,
+      "host": {
+        "id": "host14",
+        "name": "Hanif Khan",
+        "avatar": "https://i.pravatar.cc/150?u=host14",
+        "joinDate": "2019-09-01",
+        "responseRate": 98
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "15",
+      "title": "Riverside Bamboo Hut",
+      "description": "Eco-friendly bamboo construction by the Ganges. Perfect for yoga and meditation.",
+      "location": "Rishikesh, Uttarakhand",
+      "coordinates": {
+        "lat": 30.0869,
+        "lng": 78.2676
+      },
+      "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 1500,
+      "pricePerNight": 1500,
+      "type": "design",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "River View",
+        "Garden",
+        "Yoga Deck"
+      ],
+      "rating": 4.65,
+      "reviews": 120,
+      "host": {
+        "id": "host15",
+        "name": "Swami G",
+        "avatar": "https://i.pravatar.cc/150?u=host15",
+        "joinDate": "2016-05-05",
+        "responseRate": 85
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "16",
+      "title": "Colonial Bungalow with Pool",
+      "description": "Spacious heritage property with high ceilings and a large garden.",
+      "location": "Puducherry, India",
+      "coordinates": {
+        "lat": 11.9416,
+        "lng": 79.8083
+      },
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 7500,
+      "pricePerNight": 7500,
+      "type": "villa",
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 3,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Pool",
+        "Parking",
+        "AC"
+      ],
+      "rating": 4.82,
+      "reviews": 44,
+      "host": {
+        "id": "host16",
+        "name": "Pierre Dubois",
+        "avatar": "https://i.pravatar.cc/150?u=host16",
+        "joinDate": "2020-02-20",
+        "responseRate": 99
+      },
+      "availability": [],
+      "cancellationPolicy": "strict"
+    },
+    {
+      "id": "17",
+      "title": "Mountain View Studio",
+      "description": "Compact and cozy studio with stunning views of the Dhauladhar range.",
+      "location": "Dharamshala, Himachal Pradesh",
+      "coordinates": {
+        "lat": 32.219,
+        "lng": 76.3234
+      },
+      "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 2800,
+      "pricePerNight": 2800,
+      "type": "apartment",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Balcony",
+        "Heating"
+      ],
+      "rating": 4.76,
+      "reviews": 92,
+      "host": {
+        "id": "host17",
+        "name": "Tenzin Gyatso",
+        "avatar": "https://i.pravatar.cc/150?u=host17",
+        "joinDate": "2021-07-15",
+        "responseRate": 93
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "18",
+      "title": "Zen Garden Villa",
+      "description": "Quiet retreat with a beautiful Japanese-style garden and meditation room.",
+      "location": "Pune, Maharashtra",
+      "coordinates": {
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 5000,
+      "pricePerNight": 5000,
+      "type": "villa",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Garden",
+        "Meditation Room",
+        "AC"
+      ],
+      "rating": 4.89,
+      "reviews": 28,
+      "host": {
+        "id": "host18",
+        "name": "Manoj Deshpande",
+        "avatar": "https://i.pravatar.cc/150?u=host18",
+        "joinDate": "2022-03-03",
+        "responseRate": 97
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    },
+    {
+      "id": "19",
+      "title": "Industrial Loft with Terrace",
+      "description": "Converted warehouse space with a huge rooftop terrace for parties.",
+      "location": "Hyderabad, Telangana",
+      "coordinates": {
+        "lat": 17.385,
+        "lng": 78.4867
+      },
+      "image": "https://images.unsplash.com/photo-1536376074432-bf12177d4f4f?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1536376074432-bf12177d4f4f?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 4800,
+      "pricePerNight": 4800,
+      "type": "apartment",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "Terrace",
+        "AC",
+        "Smart Lock"
+      ],
+      "rating": 4.7,
+      "reviews": 61,
+      "host": {
+        "id": "host19",
+        "name": "Suresh Babu",
+        "avatar": "https://i.pravatar.cc/150?u=host19",
+        "joinDate": "2020-08-18",
+        "responseRate": 95
+      },
+      "availability": [],
+      "cancellationPolicy": "flexible"
+    },
+    {
+      "id": "20",
+      "title": "Ocean Breeze Apartment",
+      "description": "Bright and airy apartment just steps away from the beach.",
+      "location": "Chennai, Tamil Nadu",
+      "coordinates": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000",
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000"
+      ],
+      "price": 3000,
+      "pricePerNight": 3000,
+      "type": "beachfront",
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1,
+      "amenities": [
+        "WiFi",
+        "Kitchen",
+        "AC",
+        "Sea View",
+        "Elevator"
+      ],
+      "rating": 4.6,
+      "reviews": 39,
+      "host": {
+        "id": "host20",
+        "name": "Latha Iyer",
+        "avatar": "https://i.pravatar.cc/150?u=host20",
+        "joinDate": "2021-01-20",
+        "responseRate": 92
+      },
+      "availability": [],
+      "cancellationPolicy": "moderate"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking1",
+      "listingId": "1",
+      "userId": "user1",
+      "checkInDate": "2024-05-15",
+      "checkOutDate": "2024-05-20",
+      "guests": 2,
+      "totalPrice": 12500,
+      "status": "confirmed",
+      "createdAt": "2024-05-01"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "avatar": "https://i.pravatar.cc/150?u=user1",
+      "wishlist": [
+        "1",
+        "5",
+        "8"
+      ],
+      "bookings": [
+        "booking1"
+      ],
+      "reviews": []
+    }
+  ]
+}
